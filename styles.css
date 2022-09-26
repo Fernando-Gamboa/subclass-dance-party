@@ -9,19 +9,56 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title{
+  padding:5px 12px;
+  float:left;
+}
+.addDancerButton{
   padding:5px 12px;
   float:right;
+}
+.addDancerButton:hover{
+  padding:5px 12px;
+  float:right;
+  color:white
+}
+.addSuperButton{
+  padding:5px 12px;
+  float:right;
+}
+.addSuperButton:hover{
+  padding:5px 12px;
+  float:right;
+  color:white
+}
+.addIronButton{
+  padding:5px 12px;
+  float:right;
+}
+.addIronButton:hover{
+  padding:5px 12px;
+  float:right;
+  color:white
 }
 .topbar{
   height:32px;
   background-color: #555;
 }
-.title{
-  background-color: #777;
-}
 .dancer{
   border:10px solid red;
   border-radius:10px;
+  position:absolute;
+  /* float: right; */
+}
+.hero{
+  max-width:5%;
+  height:auto;
+  position:absolute;
+}
+.hero2{
+  max-width:5%;
+  height:auto;
+  /* width:30px;
+  height:30px; */
   position:absolute;
 }
